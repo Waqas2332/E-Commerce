@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap");
+
+.header {
+  background-image: linear-gradient(
+      to right bottom,
+      rgb(245, 243, 193, 0.5),
+      rgb(39, 225, 193, 0.5)
+    ),
+    url("../../public/images/hero-back.jpg");
+  font-family: "Source Sans 3", sans-serif;
+  position: relative;
+  height: 95vh;
+  background-size: cover;
+  background-position: top;
+}
+.header-content {
+  position: absolute;
+  top: 50%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+}
+.header-content h2 span {
+  display: block;
+  text-transform: capitalize;
+  font-size: 35px;
+}
+.header-content button {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+  height: 35px;
+  font-size: 17px;
+  font-family: "Source Sans 3", sans-serif;
+  background-color: #f5f3c1;
+  transition: background-color 0.3s ease;
+}
+.header-content button:hover {
+  background-color: #0ea293;
+  border: 2px solid #f5f3c1;
+  color: #f5f3c1;
+}
